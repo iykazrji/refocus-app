@@ -1,0 +1,83 @@
+/* -- Section 1 -- */
+
+.section-1{
+	min-height: 100vh;
+	height: auto;
+	padding: 10%;
+	position: relative;
+	float: none;
+	background-image: url('../images/cute-child.jpg');
+}
+.section-1 .section-content{
+	margin-top: 80px;
+	text-shadow: 3px 2px 4px rgba(40, 40, 40, 0.3);
+}
+.section-1 .content-title{
+	font-size: 22px;
+	font-weight: 400; 
+}
+.section-1 .content-title .opening-tagline{
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+.section-1 .content-title h1{
+	font-weight: 800;
+	font-style: italic;
+	font-size: 50px;
+	text-shadow: 1px 2px 1px rgba(40, 40, 40, 0.3);
+}
+.section-1 .content-body{
+	width: 70%;
+	margin-top: 50px;
+	font-weight: 500;
+}
+.section-1 .content-body .steps-holder{
+	text-align: left;
+	font-size: 18px;
+	margin-top: 70px;
+}
+.section-1 .content-body .get-started-holder{
+	margin-top: 80px;
+}
+.section-1 .content-body .get-started-holder .get-started-btn{
+	display: block;
+	width: 50%;
+	font-weight: 200;
+	border-radius: 40px;	
+	border: 1px solid;
+	padding-top: 10px;
+	color: #e2c05a;
+	background-color: rgba(0,0,0,0);
+	padding-bottom: 10px;
+	transition: 0.5s all ease-in;
+	-moz-transition: 0.5s all ease-in;
+	-webkit-transition: 0.5s all ease-in;
+}
+.section-1 .content-body .get-started-holder .get-started-btn:hover{
+	background-color: #e2c05a;
+	color: #100c04;
+	border: none;
+	transition: 0.5s all ease-in;
+	-moz-transition: 0.5s all ease-in;
+	-webkit-transition: 0.5s all ease-in;
+}
+
+@media(max-width: 620px){
+
+	.section-1{
+		min-height: 110vh;
+		padding: 6%;
+		margin-top: 40px;
+	}
+	.section-1 .content-title h1{
+		font-weight: 800;
+		font-style: italic;
+		font-size: 38px;
+		text-shadow: 1px 2px 1px rgba(40, 40, 40, 0.3);
+	}
+	.section-1 .content-body .get-started-holder .get-started-btn{
+		width: 62%;
+	}
+}

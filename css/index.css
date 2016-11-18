@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    background-color: gold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.v-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.btn-blue{
+    padding: 0.7rem 4rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+.btn-blue-xs{
+    padding: 0.7rem 3rem !important;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+}
+.btn-blue:hover, .btn-blue-xs:hover, .btn-blue:active, .btn-blue-xs:active, .btn-blue:visited, .btn-blue-xs:visited{
+    color: #FFFFFF;
+}
+
+.second-section{
+    padding: 5rem 1rem;
+}
+.second-section > div{
+    padding:0 3rem;
+    flex: 1;
+}
+.second-section .example {
+    padding-bottom:40px;
+    display:block;
+    width:100%;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+    background-color:#000;
+}
+.second-section > div form{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3rem;
+    width:100%;
+}
+.second-section > div form .form-group{
+    margin:2rem 0;
+}
+.second-section > div form input{
+    padding: 1rem;
+    height:auto;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+}
+.third-section{
+    padding: 5rem 1rem;
+    text-align: center;
+}
+.third-section p{
+    color: #000000;
+    font-size: 1.6rem;
+    margin:2rem auto;
+}
+.third-section .downloadimage{
+    display:none;
+    margin-top: 1.5rem;
+}
+.fourth-section{
+    text-align: center;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.fourth-section h2{
+    background-color: rgba(0, 180, 255, 1);
+    color: #000000;
+    font-size: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+.fourth-section .gallery{
+    padding: 4rem 1rem;
+}
+.fourth-section .gallery div{
+    margin: 1rem 0;
+}
+
+
+
+
+.blurable {
+    -webkit-transition: -webkit-filter linear 0.5s;
+    transition: filter linear 0.5s, -webkit-filter linear 0.5s;
+}
+#photoframe {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+#photoframe > img{
+    position: absolute;
+}
+
+#full {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+}
+#one {
+    -webkit-filter: blur(4px);
+    filter: blur(2px);
+}
+#two {
+    -webkit-filter: blur(3px);
+    filter: blur(2px);
+}
+#three {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+#four {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+}

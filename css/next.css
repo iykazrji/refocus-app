@@ -1,0 +1,19 @@
+#drag-ball-holder{
+	width: 65px; 
+	height: 65px; 
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	cursor: pointer;
+	filter: drop-shadow(1px 3px 8px rgba(10, 10, 10, 0.8));
+/* 	margin: auto; */
+}
+#photoframe canvas{
+	overflow: auto;
+}
+#done-button{
+	width: 100%;
+}
+.next-main-container{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
